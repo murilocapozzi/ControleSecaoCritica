@@ -14,7 +14,7 @@ Turma: I
 #include <sys/time.h>
 
 #define BOARD_SIZE 2048
-#define NUM_THREADS 4
+#define NUM_THREADS 8
 #define GENERATIONS 2000
 
 long total_time = 0;

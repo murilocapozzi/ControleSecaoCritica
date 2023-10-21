@@ -13,7 +13,7 @@ Turma: I
 #include <stdlib.h>
 #include <unistd.h>
 
-#define MAX_SOMA 10000000
+#define MAX_SOMA 100000000
 
 int request = 0, respond = 0;
 long long soma = 0;
@@ -22,8 +22,8 @@ void cliente(int t_id){
     int i = 0;
     while(i != MAX_SOMA){
 
-        while(respond != t_id)
-            request = t_id;
+        //while(respond != t_id)
+        request = t_id;
 
         // Inicio SC
         printf("%d", t_id);
